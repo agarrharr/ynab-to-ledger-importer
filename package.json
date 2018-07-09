@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/agarrharr/ynab-to-ledger-importer/issues"
   },
-  "homepage": "https://github.com/agarrharr/ynab-to-ledger-importer#readme"
+  "homepage": "https://github.com/agarrharr/ynab-to-ledger-importer#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "ynab": "^1.0.0"
+  }
 }
