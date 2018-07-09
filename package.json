@@ -1,0 +1,25 @@
+{
+  "name": "ynab-to-ledger-importer",
+  "version": "1.0.0",
+  "description": "This is a work in progress. It should import transactions from ynab into a ledger-cli file.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarrharr/ynab-to-ledger-importer.git"
+  },
+  "keywords": [
+    "ynab",
+    "ledger",
+    "finance"
+  ],
+  "author": "agarrharr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agarrharr/ynab-to-ledger-importer/issues"
+  },
+  "homepage": "https://github.com/agarrharr/ynab-to-ledger-importer#readme"
+}
