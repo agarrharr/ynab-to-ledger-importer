@@ -16,3 +16,14 @@ Then run:
 npm install
 npm start
 ```
+
+## It should
+
+- Import transactions from YNAB (cleared and uncleared)
+- Use some immutable data from YNAB (id or import_id) and hash it as a YNAB_UUID tag
+- Read existing ledger file with -f flag and check for duplicates (with the YNAB_UUD)
+- Output ledger-cli formatted data using standard out
+
+## Questions
+
+- What if the category changed in YNAB or if the note, or payee changed?
